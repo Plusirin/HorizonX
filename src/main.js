@@ -1,10 +1,13 @@
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 
+import "@/assets/styles/normalize.css"
+
+// 导入Unocss样式
+import 'uno.css'
+
 import App from './App.vue'
 import router from './router'
-
-import './assets/main.css'
 
 const app = createApp(App)
 
